@@ -34,3 +34,6 @@ git checkout "nombre" -> nos desplazamos de la rama master a la rama deseada.
 
 
 git add . -> Añade todos los archivos dentro del entorno de trabajo o los actualiza. pd: git ignora las carpetas vacias
+
+git remote add origin https://github.com/LuisGalan97/git-ejemplo.git -> Configuramos un repositorio online destino
+git push -u origin "master" -> Cargamos al repositorio lo que tenemos, con el nombre de la rama de interes.
