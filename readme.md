@@ -18,3 +18,11 @@ git diff "archivo".js -> Revisamos las diferencias entre la version actual del a
                          Presionamos ENTER para avanzar, y la Q para salir.
 
 git add "archivo".js-> Sigue guardando los cambios pero deberemos recurrir al git commit para subirlos como snapshot.
+git commit -> Cargamos un nuevo snapshot, presionamos "i" para escribir un comentario arriba de todo,"esc", luego ":wq" para write and quit
+
+
+//------------------------.gitignore-----------------
+Esto no es un comando, es una texto plano donde podemos especificar en forma de directorio o path lo que queremos que se ignore de nuestro repositorio y no se tendra en cuenta con el gitstatus, y por ende no se cargara con los comandos.
+
+//---- Si quiero commitear o usar el git commit sin tener que entrar a la consola, podemos---
+git commit -m "el comentario que queremos añadir al snapshot"
