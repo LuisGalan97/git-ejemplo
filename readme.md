@@ -37,3 +37,6 @@ git add . -> Añade todos los archivos dentro del entorno de trabajo o los actua
 
 git remote add origin https://github.com/LuisGalan97/git-ejemplo.git -> Configuramos un repositorio online destino
 git push -u origin "master" -> Cargamos al repositorio lo que tenemos, con el nombre de la rama de interes.
+
+
+git clone "direccion web" -> clonamos y traemos el repositorio que estabamos usando.
