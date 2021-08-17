@@ -26,3 +26,11 @@ Esto no es un comando, es una texto plano donde podemos especificar en forma de 
 
 //---- Si quiero commitear o usar el git commit sin tener que entrar a la consola, podemos---
 git commit -m "el comentario que queremos añadir al snapshot"
+
+
+git brach "nombre" -> creamos una version alternativa del proyecto en el database de git, si solo colocamos git branch veremos, el master, y las que tengamos.
+
+git checkout "nombre" -> nos desplazamos de la rama master a la rama deseada.
+
+
+git add . -> Añade todos los archivos dentro del entorno de trabajo o los actualiza. pd: git ignora las carpetas vacias
